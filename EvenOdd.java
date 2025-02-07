@@ -21,3 +21,12 @@ public class EvenOdd{
           odd++;
         }
       }
+ System.out.println("odd"+odd+" even"+even);
+      sc.close();
+    }
+    catch(FileNotFoundException e){
+      System.out.println("Error:File not found");
+      e.printStackTrace();
+    }
+  }
+}
