@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class VoteEligibility {
     public static void main(String args[]) {
         try {
-            File file = new File("input.txt");
+            File file = new File("inputVote.txt");
             Scanner sc = new Scanner(file);
 
-            int age = sc.nextInt(); // Read age from file
+            int age = sc.nextInt();
 
             if (age >= 18) {
                 System.out.println("Eligible to vote");
